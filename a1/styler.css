@@ -1,0 +1,76 @@
+
+html{
+    background-color: gray;
+
+}
+
+body{
+ background-color: black;
+    margin: 0px;
+    paddding: 0px;
+    color: gainsboro;
+}
+
+header{
+    background-image: url(images/gradient.png);
+    background-repeat: repeat-x;
+    border-top-right-radius: 60px;
+    margin: 0px;
+    height: 200px;
+}
+#bodycontent{
+
+}
+
+
+
+#navigation li{
+
+    display: inline;
+    background-color: gainsboro;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin:0;
+    border-left: 1px solid black;
+
+
+
+}
+#navigation{
+    height: 20px;
+    margin-top: 0px;
+    background-color: gainsboro;
+
+}
+#navigation ul {
+    margin: 0px;
+
+}
+
+
+
+#searchbar{
+    position:absolute;
+    right: 0%;
+    top: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 38em){
+
+
+}
+

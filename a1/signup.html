@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset=utf-8">
+    <title>Diggers Beach Volleyball</title>
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<header>
+
+
+    <div id="title">
+        <span id="logo"><a href="index.html"><img src="images/vector_volleyball.png" width="90" height="60" ></a></span>
+        <h1> DIGGERS</h1>
+        <h2>Beach Volleyball</h2>
+
+        <div id="tagline">
+        </div>
+    </div>
+
+    </div>
+
+
+    <input type="button" id="searchbutton" name="searchbuttton" value="Search">
+    <input type="text" id="searchtext" name=" searchtext">
+
+
+
+
+
+
+
+</header>
+
+
+<div id="navigation">
+
+    <ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="signup.html">Registration</a></li>
+            <li><a href="ladder.html">Ladder</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </ul>
+
+
+    <div id="login">
+        <img width="30px" height="30px">
+        <script src="buttonPress.js"></script>
+
+    </div>
+</div>
+<div id="bodycontent">
+
+    <div id="mainsection">
+        <h2> Playing Guidelines</h2>
+        <p>Participants in Diggers Beach Volleyball play at their own risk are responsible for their own safety
+            and should only play if they are capable. Please check with your doctor before you begin.</p>
+        <p>Game fees must be paid prior to the start of the game. Games may be cancelled up to 4 hours
+            beforehand to get a refund. Without 4 hours' notice, participants will forfeit
+            the game and be charged 50% of the game fee.</p>
+
+        <!-- We would like an online sign-up form so people can register their team on the site.
+        Data we need would be:
+        •	Contact person name -->
+        <fieldset>
+            <legend>Registration</legend>
+            <form>
+                <p> <label for="contactname">Name:</label>
+                    <input type="text" id="contactname" name = contactname></p><br>
+                <!-- •	phone number-->
+                <p><label for="contactnumber">Number:</label>
+                    <input type="text" id="contactnumber" name = contactnumber></p><br>
+                <!-- •	email address-->
+                <p><label for="contactemail">Email:</label>
+                    <input type="text" id="contactemail" name = contacteamil></p><br>
+                <!-- •	Competition day (choose Monday – Saturday) -->
+
+
+                <p>
+                    <label for="compday">Availability</label>
+                    <select id="compday" name="compday" >
+
+                        <optgroup label="Select a Day">
+
+                            <option>Monday</option>
+                            <option>Tuesday</option>
+                            <option>Wednesday</option>
+                            <option>Thursday</option>
+                            <option>Friday</option>
+                            <option>Saturday</option>
+                        </optgroup>
+                    </select></p>
+                <!-- •	Tick-box for whether they have read and agree with our playing guidelines (below)-->
+                <p><label for="agreeterms"> Accept Guidelines</label>
+                    <input type="checkbox" id="agreeterms" name="agreeterms"></p>
+
+                <p><input type="button" value="Submit" id="submitbutton" name="submitbutton"></p>
+            </form>
+        </fieldset>
+    </div>
+
+
+
+</div>
+
+<div id="bodybanner">
+    <h2>Sign On @Diggers!</h2>
+    <p>Just fill out our registration form and you could be playing volleyball <b>Today!</b></p>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+<footer>
+    <div>
+
+
+    </div>
+
+
+</footer>
+</body>
+</html>
